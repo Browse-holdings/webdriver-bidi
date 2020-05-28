@@ -1,0 +1,16 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "bikeshed",
+      "pattern": [
+        {
+          "regexp": "^(ERROR):(.*):(\\d+):\\s*(.+)$",
+          "file": 2,
+          "line": 3,
+          "severity": 1,
+          "message": 4
+        }
+      ]
+    }
+  ]
+}
